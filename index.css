@@ -173,3 +173,26 @@ button {
   object-fit: cover;
   border-radius: inherit;
 }
+/*wonderful*/
+.wonderful {
+  width: 100%;
+}
+.wonderful__wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+  .wonderful__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wonderful__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
