@@ -193,3 +193,20 @@ button {
   line-height: 39.43px;
   color: #343434;
 }
+.wonderful__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  gap: 50px 73px;
+  margin-top: 50px;
+}
+.wonderful__item {
+  width: 100%;
+  display: flex;
+  gap: 39px;
+}
+.wonderful__item img {
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+}
