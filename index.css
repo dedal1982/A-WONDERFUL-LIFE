@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.page {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+.body.lock {
+  overflow: hidden;
+}
+@media screen and (max-width: 1080px) {
+}
+.container {
+  max-width: 1520px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1080px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.promo {
+  width: 100%;
+}
+.promo__wrapper {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1024px) {
+  .promo__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.promo__text {
+  max-width: 856px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 38px;
+  box-sizing: border-box;
+  background: #92af2a;
+  border-radius: 10px 0 0 10px;
+}
+.promo__text h1 {
+  font-weight: 600;
+  font-size: clamp(24px, 2.5vw, 40px);
+  line-height: 40px;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .promo__text h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.promo__text p {
+  max-width: 583px;
+  width: 100%;
+  font-weight: 400;
+  font-size: clamp(14px, 2.5vw, 20px);
+  line-height: 24px;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .promo__text p {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
+.promo__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 321px;
+  height: 43px;
+  border-radius: 5px;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15.12px;
+  color: #343434;
+}
+@media screen and (max-width: 767px) {
+  .promo__button {
+    font-size: 14px;
+  }
+}
+.promo__image {
+  border-radius: 0 10px 10px 0;
+}
