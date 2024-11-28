@@ -183,7 +183,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .wonderful__wrapper {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 }
@@ -205,11 +205,33 @@ button {
   gap: 40px;
   margin-top: 50px;
 }
-
+@media screen and (max-width: 768px) {
+  .wonderful__grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wonderful__grid {
+    margin-top: 27px;
+    gap: 25px;
+  }
+}
 .wonderful__item {
   width: 100%;
   display: flex;
   gap: 39px;
+}
+@media screen and (max-width: 767px) {
+  .wonderful__item {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .wonderful__item:nth-child(2) {
+    order: 2;
+  }
+  .wonderful__item:nth-child(4) {
+    order: 2;
+  }
 }
 .wonderful__item img {
   width: 83px;
@@ -233,11 +255,6 @@ button {
   line-height: 25.2px;
   color: #353a3a;
 }
-@media screen and (max-width: 960px) {
-  .wonderful__wrapper h3 {
-    font-size: 16px;
-  }
-}
 @media screen and (max-width: 767px) {
   .wonderful__wrapper h3 {
     font-size: 14px;
@@ -250,11 +267,6 @@ button {
   line-height: 22.4px;
   color: #353a3a;
   margin-top: 10px;
-}
-@media screen and (max-width: 960px) {
-  .wonderful__wrapper h3 {
-    font-size: 14px;
-  }
 }
 @media screen and (max-width: 767px) {
   .wonderful__wrapper p {
