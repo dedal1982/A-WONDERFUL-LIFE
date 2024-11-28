@@ -451,3 +451,38 @@ h2 {
     line-height: 15.12px;
   }
 }
+.transition__inner {
+  width: 100%;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+.transition__inner-text {
+  max-width: 643px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 53px auto 60px 83px;
+}
+.transition__inner-text h3 {
+  font-weight: 600;
+  font-size: clamp(24px, 3vw, 40px);
+  line-height: 40px;
+  color: #343434;
+}
+@media screen and (max-width: 767px) {
+  .transition__inner-text h3 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.transition__inner-text h4 {
+  font-weight: 600;
+  font-size: clamp(14px, 5vw, 20px);
+  line-height: clamp(16.8px, 5vw, 24px);
+  color: #343434;
+  margin-top: 7px;
+}
