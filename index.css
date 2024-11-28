@@ -202,7 +202,7 @@ button {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, minmax(auto, 1fr));
-  gap: 50px 40px;
+  gap: 40px;
   margin-top: 50px;
 }
 .wonderful__item {
