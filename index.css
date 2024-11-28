@@ -59,14 +59,15 @@ button {
 }
 .promo {
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 .promo__wrapper {
+  max-width: 1440px;
+  width: 100%;
   display: flex;
   padding-top: 60px;
   padding-bottom: 100px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .promo__wrapper {
@@ -92,9 +93,9 @@ button {
   background: #92af2a;
   border-radius: 10px 0 0 10px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 960px) {
   .promo__text {
-    padding-left: 20px;
+    padding: 20px;
   }
 }
 .promo__text h1 {
@@ -143,7 +144,12 @@ button {
   }
 }
 .promo__image {
+  width: 584px;
+  border-radius: 0 10px 10px 0;
+}
+.promo__image img {
   width: 100%;
   height: 100%;
-  border-radius: 0 10px 10px 0;
+  object-fit: cover;
+  border-radius: inherit;
 }
