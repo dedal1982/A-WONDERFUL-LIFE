@@ -486,3 +486,22 @@ h2 {
   color: #343434;
   margin-top: 7px;
 }
+@media screen and (max-width: 767px) {
+  .transition__inner-text h4 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
+.transition__inner-paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  gap: 40px;
+}
+.transition__inner-paragraph p {
+  font-weight: 400;
+  font-size: clamp(12px, 5vw, 16px);
+  line-height: clamp(16.8px, 5vw, 22.4px);
+  color: #343434;
+  margin-top: 7px;
+}
