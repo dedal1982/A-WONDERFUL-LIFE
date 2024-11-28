@@ -335,12 +335,6 @@ h2 {
   .changes__item {
     padding: 24px;
   }
-  .changes__item:nth-child(2) {
-    order: ;
-  }
-  .changes__item:nth-child(3) {
-    order: ;
-  }
 }
 .changes__item p {
   font-weight: 500;
