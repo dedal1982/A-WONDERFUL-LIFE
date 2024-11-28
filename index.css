@@ -187,14 +187,14 @@ button {
     padding-bottom: 60px;
   }
 }
-.wonderful__wrapper h2 {
+h2 {
   font-weight: 300;
   font-size: clamp(24px, 2vw, 35px);
   line-height: 39.43px;
   color: #343434;
 }
 @media screen and (max-width: 767px) {
-  .wonderful__wrapper h2 {
+  h2 {
     font-size: 24px;
   }
 }
@@ -272,5 +272,29 @@ button {
   .wonderful__wrapper p {
     font-size: 12px;
     line-height: 16.8px;
+  }
+}
+/*changes*/
+.changes {
+  width: 100%;
+  background: #f9f9f9;
+}
+.changes__wrapper {
+  padding-top: 86px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  .changes__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .changes__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
