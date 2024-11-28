@@ -79,6 +79,7 @@ button {
   .promo__wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
+    flex-direction: column;
   }
 }
 .promo__text {
@@ -100,12 +101,12 @@ button {
 }
 .promo__text h1 {
   font-weight: 600;
-  font-size: clamp(24px, 2.5vw, 40px);
+  font-size: clamp(24px, 2vw, 40px);
   line-height: 40px;
   letter-spacing: -0.04rem;
   color: #ffffff;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .promo__text h1 {
     font-size: 24px;
     line-height: 24px;
@@ -116,10 +117,10 @@ button {
   width: 100%;
   font-weight: 400;
   font-size: clamp(14px, 2.5vw, 20px);
-  line-height: 24px;
+  line-height: clamp(16.8px, 5vw, 24px);
   color: #ffffff;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .promo__text p {
     font-size: 14px;
     line-height: 16.8px;
@@ -138,13 +139,13 @@ button {
   line-height: 15.12px;
   color: #343434;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .promo__button {
+    width: 276px;
     font-size: 14px;
   }
 }
 .promo__image {
-  width: 584px;
   border-radius: 0 10px 10px 0;
 }
 .promo__image img {
