@@ -44,18 +44,12 @@ button {
 @media screen and (max-width: 1080px) {
 }
 .container {
-  max-width: 1520px;
+  max-width: 1480px;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
   margin: 0 auto;
-}
-@media screen and (max-width: 1080px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 .all-button {
   display: flex;
@@ -358,11 +352,14 @@ h2 {
   width: 100%;
 }
 .transition__wrapper {
+  max-width: 1440px;
+  width: 100%;
   padding-top: 93px;
   padding-bottom: 100px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
   .transition__wrapper {
@@ -377,10 +374,15 @@ h2 {
   }
 }
 .transition__top {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .transition__top {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 @media screen and (max-width: 960px) {
   .transition__top {
@@ -460,12 +462,28 @@ h2 {
   margin-top: 70px;
   border-radius: 10px;
 }
+@media screen and (max-width: 1440px) {
+  .transition__inner {
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .transition__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .transition__inner-text {
   max-width: 643px;
   width: 100%;
   display: flex;
   flex-direction: column;
   margin: 53px auto 60px 83px;
+}
+@media screen and (max-width: 1275px) {
+  .transition__inner-text {
+    margin-left: 20px;
+  }
 }
 .transition__inner-text h3 {
   font-weight: 600;
@@ -492,16 +510,21 @@ h2 {
     line-height: 16.8px;
   }
 }
-.transition__inner-paragraph {
-  display: flex;
-  flex-direction: column;
-  margin-top: 22px;
-  gap: 20px;
-}
-.transition__inner-paragraph p {
+.transition__inner-text p {
   font-weight: 400;
   font-size: clamp(12px, 5vw, 16px);
   line-height: clamp(16.8px, 5vw, 22.4px);
   color: #343434;
-  margin-top: 7px;
+  margin-top: 27px;
+}
+@media screen and (max-width: 767px) {
+  .transition__inner-text p {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+}
+.transition__inner img {
+  width: 599px;
+  height: 772px;
+  border-radius: 0 10px 10px 0;
 }
