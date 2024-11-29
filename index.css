@@ -745,16 +745,20 @@ h2 {
     flex-wrap: wrap;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .gallery__grid {
+    gap: 10px;
+  }
+  .gallery__grid .row3 {
+    gap: 10px;
+  }
+}
 .gallery__item {
   width: 100%;
   height: 178px;
   border-radius: 10px;
   position: relative;
-}
-@media screen and (max-width: 960px) {
-  .gallery__grid .row3 .gallery__item {
-    width: 48%;
-  }
 }
 .gallery__item-1 {
   background: #a7d96b;
@@ -796,6 +800,9 @@ h2 {
   background: #fe7c75;
 }
 @media screen and (max-width: 960px) {
+  .gallery__grid .row3 .gallery__item {
+    width: calc(50% - 10px);
+  }
   .gallery__item-13 {
     width: 100% !important;
   }
