@@ -909,7 +909,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .nutrition__wrapper {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
   }
 }
 .nutrition__wrapper img {
@@ -1030,7 +1030,7 @@ h2 {
 }
 @media screen and (max-width: 767px) {
   .tariffs__wrapper {
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 50px;
   }
 }
@@ -1045,6 +1045,7 @@ h2 {
   .tariffs__wrapper h3 {
     font-size: 14px;
     line-height: 19.6px;
+    margin-top: 10px;
   }
 }
 .tariffs__subscription {
@@ -1061,6 +1062,9 @@ h2 {
 @media screen and (max-width: 767px) {
   .tariffs__subscription h4 {
     font-size: 14px;
+  }
+  .tariffs__subscription {
+    margin-top: 24px;
   }
 }
 .tariffs__subscription-list {
@@ -1079,6 +1083,11 @@ h2 {
   .tariffs__subscription-list li {
     font-size: 12px;
     line-height: 12px;
+  }
+  .tariffs__subscription-list {
+    margin-left: 15px;
+    margin-top: 5px;
+    gap: 12px;
   }
 }
 .tariffs__list {
