@@ -1443,7 +1443,7 @@ h2 {
   border-radius: 10px;
   box-shadow: 0px 10px 20px 0px #0000000d;
   position: relative;
-  padding: 50px 0 40px;
+  padding: 50px 0 18px;
   box-sizing: border-box;
 }
 .examples__item span {
@@ -1528,5 +1528,5 @@ h2 {
   height: 36px;
 }
 .examples__item h4:nth-of-type(13) {
-  height: 54px;
+  height: 36px;
 }
