@@ -1224,7 +1224,7 @@ h2 {
   }
 }
 @media screen and (max-width: 1023px) {
-  .tariffs__list-bottom-text h4 {
+  .tariffs__list-bottom-text h4:not(:last-child) {
     border-bottom: 1px solid #ffffff;
   }
 }
