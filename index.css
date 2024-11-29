@@ -485,6 +485,15 @@ h2 {
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 1130px) {
+  .transition__inner-text {
+    max-width: 100%;
+    margin: 60px 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}
 .transition__inner-text h3 {
   font-weight: 600;
   font-size: clamp(24px, 3vw, 40px);
@@ -527,4 +536,9 @@ h2 {
   width: 599px;
   height: 772px;
   border-radius: 0 10px 10px 0;
+}
+@media screen and (max-width: 1130px) {
+  .transition__inner img {
+    display: none;
+  }
 }
