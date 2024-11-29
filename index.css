@@ -894,11 +894,50 @@ h2 {
   display: flex;
   gap: 40px;
 }
+@media screen and (max-width: 1024px) {
+  .nutrition__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nutrition__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .nutrition__wrapper img {
   border-radius: 10px;
 }
 .nutrition__text {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 53px;
+}
+.nutrition__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.nutrition__list li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.nutrition__list li img {
+  width: 38px;
+  height: 35.71px;
+}
+.nutrition__list li p {
+  font-weight: 300;
+  font-size: clamp(14px, 3vw, 18px);
+  line-height: 25.2px;
+  color: #353a3a;
+  letter-spacing: -0.02rem;
+}
+@media screen and (max-width: 767px) {
+  .nutrition__list li p {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
 }
