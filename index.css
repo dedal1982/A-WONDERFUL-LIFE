@@ -1157,6 +1157,11 @@ h2 {
   padding-left: 103px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1200px) {
+  .tariffs__list-bottom-text {
+    padding-left: 20px;
+  }
+}
 .tariffs__list-bottom-text h4 {
   font-weight: 300;
   font-size: clamp(14px, 3vw, 20px);
@@ -1164,6 +1169,7 @@ h2 {
   color: #343434;
   white-space: nowrap;
 }
+
 @media screen and (max-width: 767px) {
   .tariffs__list-bottom-text h4 {
     font-size: 12px;
@@ -1174,8 +1180,13 @@ h2 {
 }
 .tariffs__list-bottom-text h4:not(:first-child) {
   width: 247px;
-  padding-left: 48px;
+  padding-left: 72px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .tariffs__list-bottom-text h4:not(:first-child) {
+    padding-left: 20px;
+  }
 }
 .tariffs__list-bottom-price {
   width: 100%;
@@ -1186,13 +1197,23 @@ h2 {
   padding-left: 103px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1200px) {
+  .tariffs__list-bottom-price {
+    padding-left: 20px;
+  }
+}
 .tariffs__list-bottom-price h4:first-child {
   width: 317px;
 }
 .tariffs__list-bottom-price h4:not(:first-child) {
   width: 247px;
-  padding-left: 48px;
+  padding-left: 72px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .tariffs__list-bottom-price h4:not(:first-child) {
+    padding-left: 20px;
+  }
 }
 .tariffs__list-bottom-price h4 {
   font-weight: 300;
