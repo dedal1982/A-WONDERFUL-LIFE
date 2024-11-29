@@ -1011,3 +1011,26 @@ h2 {
     line-height: 16.8px;
   }
 }
+/*tariffs*/
+.tariffs {
+  width: 100%;
+}
+.tariffs__wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+  .tariffs__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tariffs__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
