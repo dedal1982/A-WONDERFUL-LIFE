@@ -576,3 +576,13 @@ h2 {
     height: 463px;
   }
 }
+.transition__how {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.transition__how-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+}
