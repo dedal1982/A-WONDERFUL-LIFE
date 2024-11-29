@@ -1105,6 +1105,11 @@ h2 {
   flex-direction: column;
   gap: 40px;
 }
+@media screen and (max-width: 767px) {
+  .tariffs__list-item {
+    gap: 23px;
+  }
+}
 .tariffs__list-top {
   display: flex;
   align-items: center;
@@ -1201,8 +1206,8 @@ h2 {
     align-items: flex-start;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 .tariffs__list-bottom-text h4 {
@@ -1215,6 +1220,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .tariffs__list-bottom-text h4 {
     font-size: 12px;
+    line-height: 33px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -1274,8 +1280,8 @@ h2 {
     text-align: end;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 .tariffs__list-bottom-price h4:first-child {
@@ -1320,6 +1326,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .tariffs__list-bottom-price h4 {
     font-size: 12px;
+    line-height: 33px;
   }
 }
 .item-1 {
