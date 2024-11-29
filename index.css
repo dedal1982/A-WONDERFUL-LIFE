@@ -643,15 +643,22 @@ h2 {
   line-height: 20px;
   color: #353a3a;
 }
-/* @media screen and (max-width: 1024px) {
-  .transition__grid-item h5 {
-    font-size: 17px;
-    line-height: 17px;
-  }
-} */
 @media screen and (max-width: 767px) {
   .transition__grid-item h5 {
     font-size: 14px;
     line-height: 14px;
   }
+}
+/*separator*/
+.separator {
+  width: 100%;
+  background: #f9f9f9;
+}
+.separator__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
