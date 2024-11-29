@@ -1095,6 +1095,11 @@ h2 {
   flex-direction: column;
   margin-top: 50px;
 }
+@media screen and (max-width: 767px) {
+  .tariffs__list {
+    margin-top: 39px;
+  }
+}
 .tariffs__list-item {
   display: flex;
   flex-direction: column;
@@ -1104,6 +1109,11 @@ h2 {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .tariffs__list-top {
+    gap: 16px;
+  }
 }
 .tariffs__list-top span {
   width: 83px;
@@ -1122,6 +1132,7 @@ h2 {
     font-size: 32px;
     width: 54px;
     height: 54px;
+    border-radius: 6px;
   }
 }
 .tariffs__1 {
@@ -1141,6 +1152,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .tariffs__list-top-text h3 {
     font-size: 14px;
+    line-height: 26px;
   }
 }
 .tariffs__list-top-text p {
@@ -1148,10 +1160,13 @@ h2 {
   font-size: clamp(14px, 3vw, 20px);
   line-height: 39.43px;
   color: #343434;
+  white-space: nowrap;
 }
 @media screen and (max-width: 767px) {
   .tariffs__list-top-text p {
     font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.04rem;
   }
 }
 .tariffs__list-bottom {
