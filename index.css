@@ -1208,6 +1208,11 @@ h2 {
 .tariffs__list-bottom-text h4:first-child {
   width: 317px;
 }
+@media screen and (max-width: 767px) {
+  .tariffs__list-bottom-text h4:first-child {
+    width: 202px;
+  }
+}
 .tariffs__list-bottom-text h4:not(:first-child) {
   width: 247px;
   padding-left: 72px;
@@ -1221,6 +1226,11 @@ h2 {
 @media screen and (max-width: 1023px) {
   .tariffs__list-bottom-text h4:not(:first-child) {
     padding-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tariffs__list-bottom-text h4:not(:first-child) {
+    width: 202px;
   }
 }
 .tariffs__list-bottom-price {
@@ -1254,6 +1264,11 @@ h2 {
 .tariffs__list-bottom-price h4:first-child {
   width: 317px;
 }
+@media screen and (max-width: 767px) {
+  .tariffs__list-bottom-price h4:first-child {
+    width: 148px;
+  }
+}
 .tariffs__list-bottom-price h4:not(:first-child) {
   width: 247px;
   padding-left: 72px;
@@ -1267,6 +1282,11 @@ h2 {
 @media screen and (max-width: 1023px) {
   .tariffs__list-bottom-price h4:not(:first-child) {
     padding-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tariffs__list-bottom-price h4:not(:first-child) {
+    width: 148px;
   }
 }
 .tariffs__list-bottom-price h4 {
