@@ -655,10 +655,22 @@ h2 {
   background: #f9f9f9;
 }
 .separator__wrapper {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+.separator__wrapper h2 {
+  max-width: 886px;
+  width: 100%;
+  letter-spacing: -0.02rem;
+}
+.separator__button {
+  width: 453px;
+  height: 48px;
+  background: #6ebe11;
+  color: #fff;
 }
