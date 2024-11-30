@@ -1647,3 +1647,39 @@ h2 {
 .swiper-button-next {
   right: 0;
 }
+/*nutritionist*/
+.nutritionist {
+  width: 100%;
+}
+.nutritionist__wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .nutritionist__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.nutritionist__top {
+  display: flex;
+  gap: 53px;
+}
+.nutritionist__top-text {
+  max-width: 683px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
