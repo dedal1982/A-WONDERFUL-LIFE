@@ -1821,17 +1821,51 @@ h2 {
   flex-direction: column;
   margin-top: 53px;
 }
+@media screen and (max-width: 1460px) {
+  .nutritionist__bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__bottom {
+    margin-top: 33px;
+  }
+}
 .nutritionist__galery {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 40px;
 }
+@media screen and (max-width: 1100px) {
+  .nutritionist__galery {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__galery {
+    grid-template-columns: 1fr;
+    gap: 23px;
+  }
+}
 .nutritionist__item {
   width: 100%;
   display: flex;
   align-items: center;
   gap: 24px;
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__item:nth-of-type(3) {
+    order: 4;
+  }
+  .nutritionist__item:nth-of-type(2) {
+    order: 3;
+  }
+  .nutritionist__item:nth-of-type(5) {
+    order: 3;
+  }
 }
 .nutritionist__item p {
   font-weight: 300;
@@ -1843,5 +1877,43 @@ h2 {
   .nutritionist__item p {
     font-size: 12px;
     line-height: 16.8px;
+  }
+}
+.nutritionist__bottom h5 {
+  font-weight: 300;
+  font-size: clamp(14px, 3vw, 24px);
+  line-height: 28.8px;
+  color: #343434;
+  margin-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__bottom h5 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
+.nutritionist__button {
+  width: 453px;
+  height: 48px;
+  background: #6ebe11;
+  color: #fff;
+  margin: 50px auto 0;
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__button {
+    width: 350px;
+    height: 43px;
+    font-size: 14px;
+    line-height: 15.12px;
+  }
+}
+.nutritionist__item img {
+  width: 83px;
+  height: 83px;
+}
+@media screen and (max-width: 768px) {
+  .nutritionist__item img {
+    width: 54px;
+    height: 54px;
   }
 }
