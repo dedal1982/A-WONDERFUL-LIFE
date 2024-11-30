@@ -1669,8 +1669,8 @@ h2 {
 }
 @media screen and (max-width: 767px) {
   .nutritionist__wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
 }
 .nutritionist__top {
@@ -1684,10 +1684,15 @@ h2 {
   flex-direction: column;
 }
 @media screen and (max-width: 1460px) {
-  .nutritionist__top-text {
+  .nutritionist__top-text h2 {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nutritionist__top-text {
+    max-width: 100%;
   }
 }
 .nutritionist__top-desc {
@@ -1696,11 +1701,24 @@ h2 {
   gap: 26px;
   margin-top: 45px;
 }
+@media screen and (max-width: 767px) {
+  .nutritionist__top-desc {
+    margin-top: 27px;
+    gap: 22px;
+  }
+}
 .nutritionist__top-desc p {
   font-weight: 400;
   font-size: clamp(14px, 3vw, 18px);
   line-height: 25.2px;
   color: #343434;
+}
+@media screen and (max-width: 1460px) {
+  .nutritionist__top-desc p {
+    padding-left: 20px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 767px) {
   .nutritionist__top-desc p {
@@ -1714,6 +1732,18 @@ h2 {
   gap: 5px;
   list-style-type: disc;
   margin-left: 20px;
+}
+@media screen and (max-width: 1460px) {
+  .nutritionist__top-desc ul {
+    padding-left: 20px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__top-desc ul {
+    margin-left: 14px;
+  }
 }
 .nutritionist__top-desc ul li::marker {
   color: #8ece34;
@@ -1740,6 +1770,9 @@ h2 {
 @media screen and (max-width: 1460px) {
   .nutritionist__top-desc h4 {
     margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 15px;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1360px) {
@@ -1751,6 +1784,7 @@ h2 {
   .nutritionist__top-desc h4 {
     font-size: 16px;
     line-height: 19.2px;
+    margin-top: 20px;
   }
 }
 .nutritionist__image {
@@ -1760,5 +1794,25 @@ h2 {
 @media screen and (max-width: 1360px) {
   .nutritionist__image {
     width: 600px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .nutritionist__image {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nutritionist__image {
+    display: none;
+  }
+}
+.nutritionist__image-mobile {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .nutritionist__image-mobile {
+    display: block;
+    width: 100%;
+    height: 390px;
   }
 }
