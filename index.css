@@ -1890,6 +1890,7 @@ h2 {
   .nutritionist__bottom h5 {
     font-size: 14px;
     line-height: 16.8px;
+    margin-top: 40px;
   }
 }
 .nutritionist__button {
@@ -1905,6 +1906,7 @@ h2 {
     height: 43px;
     font-size: 14px;
     line-height: 15.12px;
+    margin-top: 20px;
   }
 }
 .nutritionist__item img {
