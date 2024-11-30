@@ -2042,12 +2042,19 @@ h2 {
   padding-bottom: 100px;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
   position: relative;
 }
 @media screen and (max-width: 1024px) {
   .feedback__wrapper {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .feedback__wrapper {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 767px) {
@@ -2062,6 +2069,12 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-top: 27px;
+  z-index: 2;
+}
+@media screen and (max-width: 960px) {
+  .feedback__text {
+    max-width: 510px;
+  }
 }
 .feedback__form {
   width: 400px;
@@ -2175,4 +2188,25 @@ textarea {
   color: #fff;
   margin-top: 23px;
   font-weight: 500;
+}
+.feedback__image {
+  position: absolute;
+  right: 0;
+}
+@media screen and (max-width: 1280px) {
+  .feedback__image {
+    width: 710px;
+    height: 411px;
+  }
+}
+@media screen and (max-width: 1095px) {
+  .feedback__image {
+    width: 510px;
+    height: 311px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .feedback__image {
+    position: static;
+  }
 }
