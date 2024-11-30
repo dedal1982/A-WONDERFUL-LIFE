@@ -1701,3 +1701,25 @@ h2 {
     line-height: 16.8px;
   }
 }
+.nutritionist__top-desc ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.nutritionist__top-desc ul li::marker {
+  color: #8ece34;
+}
+.nutritionist__top-desc ul li {
+  font-weight: 400;
+  font-size: clamp(14px, 3vw, 18px);
+  line-height: 25.2px;
+  color: #343434;
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__top-desc ul li {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+}
