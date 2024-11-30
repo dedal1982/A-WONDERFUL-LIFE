@@ -897,8 +897,16 @@
               <div class="feedback__text">
                 <h2>Остались вопросы? Напишите нам!</h2>
                 <form class="feedback__form" action="#">
-                  <input type="text" placeholder="Имя" />
-                  <input type="tel" placeholder="Телефон" />
+                  <input type="text" placeholder="Имя" required />
+                  <input type="tel" placeholder="Телефон" required />
+                  <textarea name="" id="" placeholder="Сообщение"></textarea>
+                  <div class="feedback__agreement">
+                    <span></span>
+                    <a href="#" target="_blank">Напишите мне в WhatsApp</a>
+                  </div>
+                  <button class="all-button feedback__button" type="submit">
+                    Отправить
+                  </button>
                 </form>
               </div>
             </div>
