@@ -1675,13 +1675,20 @@ h2 {
 }
 .nutritionist__top {
   display: flex;
-  gap: 53px;
+  gap: 50px;
 }
 .nutritionist__top-text {
-  max-width: 683px;
+  max-width: 690px;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 1460px) {
+  .nutritionist__top-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
 }
 .nutritionist__top-desc {
   display: flex;
@@ -1721,5 +1728,37 @@ h2 {
   .nutritionist__top-desc ul li {
     font-size: 12px;
     line-height: 16.8px;
+  }
+}
+.nutritionist__top-desc h4 {
+  font-weight: 400;
+  font-size: clamp(14px, 3vw, 24px);
+  line-height: 28.8px;
+  color: #343434;
+  margin-top: 82px;
+}
+@media screen and (max-width: 1460px) {
+  .nutritionist__top-desc h4 {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .nutritionist__top-desc h4 {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nutritionist__top-desc h4 {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+.nutritionist__image {
+  width: 700px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1360px) {
+  .nutritionist__image {
+    width: 600px;
   }
 }
