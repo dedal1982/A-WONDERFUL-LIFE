@@ -1927,6 +1927,8 @@ h2 {
 .reviews__wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 1024px) {
   .reviews__wrapper {
