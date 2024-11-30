@@ -1554,6 +1554,7 @@ h2 {
     display: flex;
     width: 350px;
     padding-top: 60px;
+    padding-bottom: 60px;
   }
   .examples__item {
     width: 290px;
@@ -1565,42 +1566,84 @@ h2 {
 }
 @media screen and (max-width: 767px) {
   .examples__item h4:nth-of-type(1) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(2) {
-    min-height: 54px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(3) {
-    min-height: 54px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(4) {
-    min-height: 54px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(5) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(6) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(7) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(8) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(9) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(10) {
-    min-height: 54px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(11) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(12) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
   .examples__item h4:nth-of-type(13) {
-    min-height: 36px;
+    min-height: 40px;
+    height: 40px;
   }
+  .examples__item h4 br {
+    display: none;
+  }
+  .examples__item {
+    padding-top: 18px;
+  }
+}
+.swiper-pagination-bullet-active {
+  background: #6ebe11;
+}
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 10px;
+  height: 20px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 21px;
+  color: #6ebe11;
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-button-next {
+  right: 0;
 }

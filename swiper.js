@@ -11,8 +11,8 @@ const swiper = new Swiper(".examples__swiper", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".bought-out-next",
-    prevEl: ".bought-out-prev",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   breakpoints: {
     320: {
@@ -25,30 +25,6 @@ const swiper = new Swiper(".examples__swiper", {
     },
     425: {
       slidesPerView: 1,
-      spaceBetween: 40,
-    },
-    500: {
-      slidesPerView: 1,
-      spaceBetween: 40,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 10,
-    },
-    769: {
-      slidesPerView: 2.5,
-      spaceBetween: 10,
-    },
-    835: {
-      slidesPerView: 3.3,
-      spaceBetween: 40,
-    },
-    1280: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1920: {
-      slidesPerView: 4,
       spaceBetween: 40,
     },
   },
