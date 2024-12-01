@@ -1234,6 +1234,7 @@ h2 {
     padding-right: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px 0 0 10px;
   }
 }
 .tariffs__list-bottom-text h4 {
@@ -1308,6 +1309,7 @@ h2 {
     padding-right: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 0 10px 10px 0;
   }
 }
 .tariffs__list-bottom-price h4:first-child {
