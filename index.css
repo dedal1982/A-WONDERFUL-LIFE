@@ -1090,6 +1090,9 @@ h2 {
     gap: 12px;
   }
 }
+.tariffs__subscription-list li::marker {
+  color: #8ece34;
+}
 .tariffs__list {
   display: flex;
   flex-direction: column;
